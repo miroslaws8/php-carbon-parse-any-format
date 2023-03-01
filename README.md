@@ -4,7 +4,7 @@
 How to install:
 
 ```
-composer install 
+composer require itsimiro/php-carbon-parse-any-format 
 ```
 
 
