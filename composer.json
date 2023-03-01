@@ -1,0 +1,29 @@
+{
+    "name": "itsimiro/php-carbon-parse-any-format",
+    "description": "Adds the ability to get a date object with any format.",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "^2.66"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itsimiro\\PhpCarbonParseAnyFormat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miro",
+            "email": "itsimiro@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "fakerphp/faker": "^1.21"
+    }
+}
