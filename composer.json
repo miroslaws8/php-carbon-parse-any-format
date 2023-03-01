@@ -3,6 +3,7 @@
     "description": "Adds the ability to get a date object with any format.",
     "type": "library",
     "require": {
+        "php": ">=8.1",
         "nesbot/carbon": "^2.66"
     },
     "license": "MIT",
